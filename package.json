@@ -1,0 +1,11 @@
+{
+  "name": "graphql-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "CasheeeewNuts <casheeeewnuts+tech@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "server"
+  ]
+}

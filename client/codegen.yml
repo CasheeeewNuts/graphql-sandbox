@@ -1,0 +1,11 @@
+overwrite: true
+schema: "http://localhost:4000"
+generates:
+  src/generated/graphql.ts:
+    plugins:
+      - "typescript"
+    config:
+      enumsAsTypes: true
+  ./graphql.schema.json:
+    plugins:
+      - "introspection"
